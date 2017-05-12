@@ -11,7 +11,7 @@
 
     <name>Kafka River Plugin for ElasticSearch</name>
     <description>Kafka River Plugin for ElasticSearch</description>
-    <url>https://github.com/mariamhakobyan/elasticsearch-river-kafka</url>
+    <url>https://github.com/TerryJayChan/elasticsearch-river-kafka</url>
 
     <licenses>
         <license>
@@ -21,17 +21,16 @@
     </licenses>
 
     <scm>
-        <connection>scm:git@github.com:mariamhakobyan/elasticsearch-river-kafka.git</connection>
-        <developerConnection>scm:git:git@github.com:mariamhakobyan/elasticsearch-river-kafka.git</developerConnection>
-        <url>git@github.com:mariamhakobyan/elasticsearch-river-kafka.git</url>
+        <connection>scm:git@github.com:TerryJayChan/elasticsearch-river-kafka.git</connection>
+        <developerConnection>scm:git:git@github.com:TerryJayChan/elasticsearch-river-kafka.git</developerConnection>
+        <url>git@github.com:TerryJayChan/elasticsearch-river-kafka.git</url>
         <tag>HEAD</tag>
     </scm>
 
     <developers>
         <developer>
-            <name>Mariam Hakobyan</name>
-            <email>mariam.hak@gmail.com</email>
-            <organizationUrl>http://www.mariam-hakobyan.com</organizationUrl>
+            <name>Terry Chan</name>
+            <email>chentao18@163.com</email>
         </developer>
     </developers>
 
@@ -48,8 +47,8 @@
         <skipSigning>true</skipSigning>
 
         <!--Dependency versions-->
-        <version.elasticsearch>1.6.0</version.elasticsearch>
-        <version.kafka>0.8.2.1</version.kafka>
+        <version.elasticsearch>1.7.0</version.elasticsearch>
+        <version.kafka>0.8.2.2</version.kafka>
         <version.scala>2.11.2</version.scala>
         <version.slf4j>1.7.2</version.slf4j>
         <version.yammer.metrics.core>2.2.0</version.yammer.metrics.core>
